@@ -1,0 +1,49 @@
+<!--
+Name: Elizabeth Ralyea
+Date Created: 10/10/2018
+Most Recent Revision:
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lucky Sevens</title>
+    <!-- links to javascript-->
+    <script type="text/javascript" src="luckyseven.js"></script>
+</head>
+<body onload="hideResults()"><!--hides the results section-->
+
+    <!-- takes in inital information -->
+
+<div id="gameDiv">
+    <h1>Lucky Sevens</h1>
+    <span>Starting Bet:<input type="number" name="inital_bet" id="initial" placeholder="$0.00"></span>
+        <br/>
+            <button onclick="play()" id="play_button">Play</button>
+        </form>
+    </div>
+
+    <!-- gives the results-->
+
+    <div id="results">
+        <table>
+        <caption><h2>Results</h2></caption>
+            <tr>
+                <th>Starting Bet</th>
+                <th id="result_bet"></th>
+            </tr>
+            <tr>
+                <td>Total Rolls Before Going Broke</td>
+                <td id="result_roll_counter"></td>
+            </tr>
+            <tr>
+                <td>Highest Amount Won</td>
+                <td id="result_highest_held"></td>
+            </tr>
+            <tr>
+                <td>Roll Count at Highest Amount Won</td>
+                <td id="result_rolls_from_highest"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
