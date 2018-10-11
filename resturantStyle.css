@@ -1,0 +1,25 @@
+
+header,nav, footer, #j, #first_slide, #second_slide, #third_slide {font-family:"Comic Sans",cursive, sans-serif}
+header {padding-top: 5px;
+        padding-bottom: 5px;}
+p {text-align: center;}        
+#p {background-color: #f0f8ff;}
+#j {background-color: #bfe0fc}
+#first_slide, #second_slide, #third_slide {text-align: center;
+                                            font-size: 2em;
+                                          padding: 70px}
+#first_slide {background-color: #bfe0fc}
+#second_slide{background-color: #dbfcef}
+#third_slide {background-color: #95b8d6}
+a:active{
+ text-decoration: none;
+}
+a:link{
+   color: blue;
+}
+a:visited{
+ color: lightgreen;
+}
+a:hover{
+ font-weight: bold;
+}
